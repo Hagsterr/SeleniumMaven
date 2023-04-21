@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f2ddd1f-e833-475f-b74c-5c13c98d921c" name="Changes" comment="Fixa erat skit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6f2ddd1f-e833-475f-b74c-5c13c98d921c" name="Changes" comment="Fixa erat skit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +60,7 @@
       <workItem from="1681904031496" duration="1157000" />
       <workItem from="1682064663932" duration="256000" />
       <workItem from="1682067669143" duration="335000" />
-      <workItem from="1682077714691" duration="1977000" />
+      <workItem from="1682077714691" duration="2334000" />
     </task>
     <task id="LOCAL−00001" summary="update 2.0">
       <created>1681817446322</created>
@@ -124,7 +122,13 @@
       <option name="presentableId" value="LOCAL−00010" />
       <updated>1682079357987</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL−00011" summary="Fixa erat skit">
+      <created>1682079861045</created>
+      <option name="number" value="LOCAL−00011" />
+      <option name="presentableId" value="LOCAL−00011" />
+      <updated>1682079861045</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
