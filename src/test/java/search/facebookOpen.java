@@ -36,7 +36,7 @@ public class facebookOpen {
         driver.findElement(By.name("login")).click();
 
         //Clicks on the searchbar
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+
         WebElement searchButton = driver.findElement(By.cssSelector("input[aria-label='Search Facebook']"));
         searchButton.click();
         try {
