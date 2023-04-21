@@ -4,12 +4,13 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.slf4j.LoggerFactory;
+import org.slf4j.Logger;
 
-import java.util.logging.Logger;
 
 public class facebookLogin {
-
-    private static final Logger logger = Logger.getLogger(facebookLogin.class.getName());
+    // private static final Logger logger = Logger.getLogger(facebookLogin.class.getName());
+    private static final Logger logger = LoggerFactory.getLogger(facebookLogin.class);
 
 
 
@@ -28,8 +29,9 @@ public class facebookLogin {
         driver.get("https://www.facebook.com");
         driver.manage().window().maximize();
 
-        logger.info("Din Mamma");
-        logger.info("Eran mamma");
+        logger.info("Starting up");
+        logger.debug("Debugging");
+        logger.error("ERROR!!!");
 
 
         // Close cookies
