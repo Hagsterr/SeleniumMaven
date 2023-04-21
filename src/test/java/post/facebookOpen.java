@@ -1,4 +1,4 @@
-package test;
+package post;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -29,13 +29,7 @@ public class facebookOpen {
         driver.findElement(By.id("email")).sendKeys(log.email);
         driver.findElement(By.id("pass")).sendKeys(log.password);
         driver.findElement(By.name("login")).click();
-
-        // Sleep for 2 seconds
-        try {
-            Thread.sleep(2000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+        driver.findElement(By.linkText("Startsida")).click();
 
 // Go to profile
         driver.findElement(By.cssSelector("svg[aria-label='Your profile']")).click();
