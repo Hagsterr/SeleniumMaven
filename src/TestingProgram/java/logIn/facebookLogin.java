@@ -14,7 +14,6 @@ public class facebookLogin {
 
 
 
-
     public static void main(String[] args) {
 
         System.setProperty("webdriver.chrome.driver", "C:\\Program Files (x86)\\testingGoogle\\chromedriver.exe");
@@ -30,6 +29,7 @@ public class facebookLogin {
         driver.manage().window().maximize();
 
         logger.info("Din Mamma");
+        logger.info("Eran mamma");
 
 
         // Close cookies

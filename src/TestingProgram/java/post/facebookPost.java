@@ -23,6 +23,8 @@ public class facebookPost {
         driver.get("https://www.facebook.com");
         driver.manage().window().maximize();
 
+        String mamma;
+
 
         // Close cookies
         driver.findElement(By.cssSelector("button[data-cookiebanner=\"accept_button\"]")).click();

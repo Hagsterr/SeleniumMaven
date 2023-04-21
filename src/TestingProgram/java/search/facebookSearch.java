@@ -23,6 +23,8 @@ public class facebookSearch {
         driver.get("https://www.facebook.com");
         driver.manage().window().maximize();
 
+        String dinmamma;
+
 
         // Close cookies
         driver.findElement(By.cssSelector("button[data-cookiebanner=\"accept_button\"]")).click();
