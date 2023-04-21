@@ -14,6 +14,7 @@ public class facebookLogin {
 
 
 
+
     public static void main(String[] args) {
 
         System.setProperty("webdriver.chrome.driver", "C:\\Program Files (x86)\\testingGoogle\\chromedriver.exe");
@@ -27,6 +28,8 @@ public class facebookLogin {
         // Get maximize Facebook.com
         driver.get("https://www.facebook.com");
         driver.manage().window().maximize();
+
+        logger.info("Din Mamma");
 
 
         // Close cookies
