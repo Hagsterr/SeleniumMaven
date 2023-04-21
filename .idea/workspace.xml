@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f2ddd1f-e833-475f-b74c-5c13c98d921c" name="Changes" comment="Chromeoptions">
+    <list default="true" id="6f2ddd1f-e833-475f-b74c-5c13c98d921c" name="Changes" comment="NY">
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/Posting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/facebookOpen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/facebookOpen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +52,9 @@
       <updated>1681744531358</updated>
       <workItem from="1681744532803" duration="1336000" />
       <workItem from="1681807061582" duration="3512000" />
-      <workItem from="1681815591917" duration="7128000" />
+      <workItem from="1681815591917" duration="7784000" />
+      <workItem from="1681904031496" duration="1157000" />
+      <workItem from="1682064663932" duration="256000" />
     </task>
     <task id="LOCAL−00001" summary="update 2.0">
       <created>1681817446322</created>
@@ -76,7 +80,13 @@
       <option name="presentableId" value="LOCAL−00004" />
       <updated>1681822178880</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL−00005" summary="NY">
+      <created>1681822791539</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1681822791539</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,6 +107,7 @@
     <MESSAGE value="update 2.0" />
     <MESSAGE value="Start" />
     <MESSAGE value="Chromeoptions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chromeoptions" />
+    <MESSAGE value="NY" />
+    <option name="LAST_COMMIT_MESSAGE" value="NY" />
   </component>
 </project>
