@@ -1,7 +1,9 @@
 package post;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
@@ -31,25 +33,25 @@ public class facebookOpen {
         driver.findElement(By.name("login")).click();
         driver.findElement(By.linkText("Startsida")).click();
 
-// Go to profile
-        driver.findElement(By.cssSelector("svg[aria-label='Your profile']")).click();
-
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+        WebElement postBar = driver.findElement(By.cssSelector("#mount_0_0_Wq > div > div:nth-child(1) > div > div.x9f619.x1n2onr6.x1ja2u2z > div > div > div > div.x78zum5.xdt5ytf.x10cihs4.x1t2pt76.x1n2onr6.x1ja2u2z > div.x9f619.x1n2onr6.x1ja2u2z.x78zum5.x2lah0s.xl56j7k.x1qjc9v5.xozqiw3.x1q0g3np.x1t2pt76.x17upfok > div > div.x9f619.x1n2onr6.x1ja2u2z.x78zum5.x1iyjqo2.xs83m0k.xeuugli.xl56j7k.x1qjc9v5.xozqiw3.x1q0g3np.x1iplk16.x1xfsgkm.xqmdsaz.x1mtsufr.x1w9j1nh > div > div > div > div.x78zum5.x1q0g3np.xl56j7k > div > div.x1yztbdb > div > div > div > div.x1cy8zhl.x78zum5.x1iyjqo2.xs83m0k.xh8yej3 > div"));
 
 
-// Click on logout button
-        driver.findElement(By.xpath("//span[text()='Log Out']")).click();
-
-// Sleep for 2 seconds
         try {
             Thread.sleep(2000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+
+        postBar.sendKeys("Idag äter vi Sill och Potatis!" + Keys.ENTER);
+
+
+
+
+
+
+
+
+
 
 
     }
