@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f2ddd1f-e833-475f-b74c-5c13c98d921c" name="Changes" comment="Separata packages">
-      <change beforePath="$PROJECT_DIR$/src/test/java/logIn/Posting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/post/Posting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/search/Posting.java" beforeDir="false" />
+    <list default="true" id="6f2ddd1f-e833-475f-b74c-5c13c98d921c" name="Changes" comment="Logout functionality solved">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/logIn/facebookOpen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/logIn/facebookLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/post/facebookOpen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/post/facebookPost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/search/facebookOpen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/search/facebookSearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +29,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2OYjhbkb7IYutqPH0K2PwNDj6E1" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,6 +42,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/emilh/IdeaProjects/SeleniumMaven/src/test/java/search",
     "nodejs_package_manager_path": "npm"
   }

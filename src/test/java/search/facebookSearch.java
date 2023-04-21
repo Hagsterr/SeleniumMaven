@@ -1,11 +1,13 @@
-package logIn;
+package search;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-public class facebookOpen {
+public class facebookSearch {
 
     public static void main(String[] args) {
 
@@ -29,27 +31,20 @@ public class facebookOpen {
         driver.findElement(By.id("email")).sendKeys(log.email);
         driver.findElement(By.id("pass")).sendKeys(log.password);
         driver.findElement(By.name("login")).click();
-        driver.findElement(By.linkText("Startsida")).click();
 
-// Go to profile
-        driver.findElement(By.cssSelector("svg[aria-label='Your profile']")).click();
+        //Clicks on the searchbar
 
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
-
-
-// Click on logout button
-        driver.findElement(By.xpath("//span[text()='Log Out']")).click();
-
-// Sleep for 2 seconds
+        WebElement searchButton = driver.findElement(By.cssSelector("input[aria-label='Search Facebook']"));
+        searchButton.click();
         try {
             Thread.sleep(2000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+
+        //Types in selenium and presses enter
+        searchButton.sendKeys("Selenium" + Keys.ENTER);
+
 
 
     }
