@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f2ddd1f-e833-475f-b74c-5c13c98d921c" name="Changes" comment="Separata packages">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+    <list default="true" id="6f2ddd1f-e833-475f-b74c-5c13c98d921c" name="Changes" comment="logback.xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestingProgram/java/logIn/facebookLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestingProgram/java/logIn/facebookLogin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Tag Library Descriptor" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -62,6 +63,7 @@
       <workItem from="1681904031496" duration="1157000" />
       <workItem from="1682064663932" duration="256000" />
       <workItem from="1682067669143" duration="335000" />
+      <workItem from="1682077714691" duration="1500000" />
     </task>
     <task id="LOCAL−00001" summary="update 2.0">
       <created>1681817446322</created>
@@ -105,7 +107,19 @@
       <option name="presentableId" value="LOCAL−00007" />
       <updated>1682071860318</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL−00008" summary="logback.xml">
+      <created>1682072128203</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1682072128203</updated>
+    </task>
+    <task id="LOCAL−00009" summary="logback.xml">
+      <created>1682072231244</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1682072231244</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,7 +142,8 @@
     <MESSAGE value="Chromeoptions" />
     <MESSAGE value="NY" />
     <MESSAGE value="Separata packages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Separata packages" />
+    <MESSAGE value="logback.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="logback.xml" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SeleniumMaven$facebookOpen.ic" NAME="facebookOpen Coverage Results" MODIFIED="1682069082988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

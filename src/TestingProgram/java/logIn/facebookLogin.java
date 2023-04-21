@@ -5,7 +5,14 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
+import java.util.logging.Logger;
+
 public class facebookLogin {
+
+    private static final Logger logger = Logger.getLogger(facebookLogin.class.getName());
+
+
+
 
     public static void main(String[] args) {
 
@@ -51,6 +58,6 @@ public class facebookLogin {
             throw new RuntimeException(e);
         }
 
-
     }
+
 }
