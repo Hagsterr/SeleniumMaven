@@ -59,7 +59,13 @@ public class facebookSearch {
         }
 
 
+        try {
+            Thread.sleep(5000);
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+        driver.quit();
+    }
 
 
     }
-}
