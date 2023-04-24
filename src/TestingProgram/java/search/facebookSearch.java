@@ -1,13 +1,19 @@
 package search;
 
+import logIn.facebookLogin;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class facebookSearch {
+
+    private static final Logger logger = LoggerFactory.getLogger(facebookLogin.class);
+
 
     public static void main(String[] args) {
 
@@ -23,7 +29,10 @@ public class facebookSearch {
         driver.get("https://www.facebook.com");
         driver.manage().window().maximize();
 
-        String dinmamma;
+        logger.info("Starting up");
+        logger.debug("Debugging");
+        logger.error("ERROR!!!");
+
 
 
         // Close cookies

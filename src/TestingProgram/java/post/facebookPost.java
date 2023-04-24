@@ -6,8 +6,14 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.slf4j.LoggerFactory;
+import org.slf4j.Logger;
 
 public class facebookPost {
+
+private static final Logger logger = LoggerFactory.getLogger(facebookPost.class);
+
+
 
     public static void main(String[] args) {
 
@@ -23,7 +29,9 @@ public class facebookPost {
         driver.get("https://www.facebook.com");
         driver.manage().window().maximize();
 
-        String mamma;
+        logger.info("Starting up");
+        logger.debug("Debugging");
+        logger.error("ERROR!!!");
 
 
         // Close cookies

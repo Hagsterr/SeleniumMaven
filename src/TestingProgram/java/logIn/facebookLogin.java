@@ -13,25 +13,26 @@ public class facebookLogin {
     private static final Logger logger = LoggerFactory.getLogger(facebookLogin.class);
 
 
-
-
     public static void main(String[] args) {
 
-        System.setProperty("webdriver.chrome.driver", "C:\\Program Files (x86)\\testingGoogle\\chromedriver.exe");
 
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--disable-notifications");
-        WebDriver driver = new ChromeDriver(options);
-        Credentials log = new Credentials();
+        try {
+            System.setProperty("webdriver.chrome.driver", "C:\\Program Files (x86)\\testingGoogle\\chromedriver.exe");
+
+            ChromeOptions options = new ChromeOptions();
+            options.addArguments("--disable-notifications");
+            WebDriver driver = new ChromeDriver(options);
+            Credentials log = new Credentials();
+        }
+        catch (Exception e) {
+            logger.error("An exception has occurred");
+        }
 
 
         // Get maximize Facebook.com
         driver.get("https://www.facebook.com");
         driver.manage().window().maximize();
 
-        logger.info("Starting up");
-        logger.debug("Debugging");
-        logger.error("ERROR!!!");
 
 
         // Close cookies
