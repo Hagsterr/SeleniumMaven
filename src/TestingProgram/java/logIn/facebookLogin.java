@@ -16,17 +16,14 @@ public class facebookLogin {
     public static void main(String[] args) {
 
 
-        try {
+
             System.setProperty("webdriver.chrome.driver", "C:\\Program Files (x86)\\testingGoogle\\chromedriver.exe");
 
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--disable-notifications");
             WebDriver driver = new ChromeDriver(options);
             Credentials log = new Credentials();
-        }
-        catch (Exception e) {
-            logger.error("An exception has occurred");
-        }
+
 
 
         // Get maximize Facebook.com
@@ -34,36 +31,35 @@ public class facebookLogin {
         driver.manage().window().maximize();
 
 
+        try {
+            // Close cookies
+            driver.findElement(By.cssSelector("button[data-cookiebanner=\"accept_btton\"]")).click();
+        } catch (Exception e){
+            logger.error("Error while closing cookies");
+        }
 
-        // Close cookies
-        driver.findElement(By.cssSelector("button[data-cookiebanner=\"accept_button\"]")).click();
+        try {
+            // Log into facebook using credentials found in separate JSON file on computer for security
+            driver.findElement(By.id("email")).sendKeys(log.email);
+            driver.findElement(By.id("pass")).sendKeys(log.password);
+        } catch (Exception e){
+            logger.error("Error while logging in");
+        }
 
-        // Log into facebook using credentials found in separate JSON file on computer for security
-        driver.findElement(By.id("email")).sendKeys(log.email);
-        driver.findElement(By.id("pass")).sendKeys(log.password);
-        driver.findElement(By.name("login")).click();
-        driver.findElement(By.linkText("Startsida")).click();
-
-// Go to profile
-        driver.findElement(By.cssSelector("svg[aria-label='Your profile']")).click();
-
+        // Find startpage as new accounts dont go there automatically
+        try {
+            driver.findElement(By.name("login")).click();
+            driver.findElement(By.linkText("Startsida")).click();
+        } catch (Exception e){
+            logger.error("Cannot find starting page");
+        }
         try {
             Thread.sleep(5000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
 
-
-// Click on logout button
-        driver.findElement(By.xpath("//span[text()='Log Out']")).click();
-
-// Sleep for 2 seconds
-        try {
-            Thread.sleep(2000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
-
+        driver.quit();
     }
 
 }

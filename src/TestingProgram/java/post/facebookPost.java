@@ -29,9 +29,7 @@ private static final Logger logger = LoggerFactory.getLogger(facebookPost.class)
         driver.get("https://www.facebook.com");
         driver.manage().window().maximize();
 
-        logger.info("Starting up");
-        logger.debug("Debugging");
-        logger.error("ERROR!!!");
+
 
 
         // Close cookies
@@ -52,13 +50,11 @@ private static final Logger logger = LoggerFactory.getLogger(facebookPost.class)
             throw new RuntimeException(e);
         }
 
-        postBar.sendKeys("Idag äter vi Sill och Potatis!" + Keys.ENTER);
-
-
-
-
-
-
+        try {
+            postBar.sendKeys("Idag äter vi Sill och Potatis!" + Keys.ENTER);
+        } catch (Exception e){
+            logger.error("Cannot post");
+        }
 
 
 

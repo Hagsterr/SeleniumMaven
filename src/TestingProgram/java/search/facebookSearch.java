@@ -12,7 +12,7 @@ import org.slf4j.LoggerFactory;
 
 public class facebookSearch {
 
-    private static final Logger logger = LoggerFactory.getLogger(facebookLogin.class);
+    private static final Logger logger = LoggerFactory.getLogger(facebookSearch.class);
 
 
     public static void main(String[] args) {
@@ -29,9 +29,6 @@ public class facebookSearch {
         driver.get("https://www.facebook.com");
         driver.manage().window().maximize();
 
-        logger.info("Starting up");
-        logger.debug("Debugging");
-        logger.error("ERROR!!!");
 
 
 

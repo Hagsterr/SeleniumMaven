@@ -7,6 +7,9 @@
     <list default="true" id="6f2ddd1f-e833-475f-b74c-5c13c98d921c" name="Changes" comment="Fixat">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TestingProgram/java/logIn/facebookLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestingProgram/java/logIn/facebookLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestingProgram/java/post/facebookPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestingProgram/java/post/facebookPost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestingProgram/java/search/facebookSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestingProgram/java/search/facebookSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +67,7 @@
       <workItem from="1682064663932" duration="256000" />
       <workItem from="1682067669143" duration="335000" />
       <workItem from="1682077714691" duration="4787000" />
-      <workItem from="1682331226029" duration="2494000" />
+      <workItem from="1682331226029" duration="4523000" />
     </task>
     <task id="LOCAL−00001" summary="update 2.0">
       <created>1681817446322</created>
@@ -150,7 +153,13 @@
       <option name="presentableId" value="LOCAL−00014" />
       <updated>1682332974172</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL−00015" summary="Fixat">
+      <created>1682333937517</created>
+      <option name="number" value="LOCAL−00015" />
+      <option name="presentableId" value="LOCAL−00015" />
+      <updated>1682333937517</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
