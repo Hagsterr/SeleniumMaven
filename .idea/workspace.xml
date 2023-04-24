@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f2ddd1f-e833-475f-b74c-5c13c98d921c" name="Changes" comment="Start">
-      <change beforePath="$PROJECT_DIR$/src/TestingProgram/java/search/facebookSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestingProgram/java/search/facebookSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestingProgram/java/post/facebookPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestingProgram/java/post/facebookPost.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +162,13 @@
       <option name="presentableId" value="LOCAL−00016" />
       <updated>1682336260047</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL−00017" summary="Start">
+      <created>1682336712455</created>
+      <option name="number" value="LOCAL−00017" />
+      <option name="presentableId" value="LOCAL−00017" />
+      <updated>1682336712455</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
