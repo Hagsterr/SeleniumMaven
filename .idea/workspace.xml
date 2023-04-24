@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f2ddd1f-e833-475f-b74c-5c13c98d921c" name="Changes" comment="Fixat">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6f2ddd1f-e833-475f-b74c-5c13c98d921c" name="Changes" comment="Start">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TestingProgram/java/logIn/facebookLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestingProgram/java/logIn/facebookLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestingProgram/java/post/facebookPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestingProgram/java/post/facebookPost.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TestingProgram/java/search/facebookSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestingProgram/java/search/facebookSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

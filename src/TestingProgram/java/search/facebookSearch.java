@@ -31,27 +31,33 @@ public class facebookSearch {
 
 
 
-
-        // Close cookies
-        driver.findElement(By.cssSelector("button[data-cookiebanner=\"accept_button\"]")).click();
-
-        // Log into facebook using credentials found in separate JSON file on computer for security
-        driver.findElement(By.id("email")).sendKeys(log.email);
-        driver.findElement(By.id("pass")).sendKeys(log.password);
-        driver.findElement(By.name("login")).click();
-
-        //Clicks on the searchbar
-
-        WebElement searchButton = driver.findElement(By.cssSelector("input[aria-label='Search Facebook']"));
-        searchButton.click();
+        //close cookies
         try {
-            Thread.sleep(2000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
+            driver.findElement(By.cssSelector("button[data-cookiebanner=\"accept_button\"]")).click();
+        } catch (Exception e) {
+            logger.error("Error occurred while accepting cookies: " + e.getMessage());
         }
 
-        //Types in selenium and presses enter
-        searchButton.sendKeys("Selenium" + Keys.ENTER);
+        // Log into facebook using credentials found in separate JSON file on computer for security
+        try {
+            driver.findElement(By.id("email")).sendKeys(log.email);
+            driver.findElement(By.id("pass")).sendKeys(log.password);
+            driver.findElement(By.name("login")).click();
+        } catch (Exception e) {
+            logger.error("Error occurred while logging into Facebook: " + e.getMessage());
+        }
+
+
+        //Clicks on the searchbar
+        try {
+            WebElement searchButton = driver.findElement(By.cssSelector("input[aria-label='Search Facebook']"));
+            searchButton.click();
+            Thread.sleep(2000);
+            searchButton.sendKeys("Selenium" + Keys.ENTER);
+        } catch (Exception e) {
+            logger.error("Error occurred while searching on Facebook: " + e.getMessage());
+        }
+
 
 
 

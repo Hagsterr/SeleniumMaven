@@ -9,7 +9,6 @@ import org.slf4j.Logger;
 
 
 public class facebookLogin {
-    // private static final Logger logger = Logger.getLogger(facebookLogin.class.getName());
     private static final Logger logger = LoggerFactory.getLogger(facebookLogin.class);
 
 
@@ -33,7 +32,7 @@ public class facebookLogin {
 
         try {
             // Close cookies
-            driver.findElement(By.cssSelector("button[data-cookiebanner=\"accept_btton\"]")).click();
+            driver.findElement(By.cssSelector("button[data-cookiebanner=\"accept_button\"]")).click();
         } catch (Exception e){
             logger.error("Error while closing cookies");
         }
